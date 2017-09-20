@@ -5,6 +5,7 @@
 
 body {
     font-family: Circular, Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #222326;
@@ -92,8 +93,8 @@ body {
     line-height: 1;
     border-radius: 500px;
     padding: 18px 48px 16px;
-    transition-duration: .3s;
     transition-property: background-color, border-color, color, box-shadow, filter;
+    transition-duration: .3s;
     border-width: 0;
     letter-spacing: 2px;
     min-width: 160px;
@@ -349,7 +350,7 @@ p.legal a:hover {
     width: 458px;
     height: 873px;
     padding: 60px 24px 0 18px;
-    background: url('../img/nexus-klein-purple.png') no-repeat;
+    background: url(../img/nexus-klein-purple.png) no-repeat;
     background-size: cover;
     margin-bottom: -50%;
 }
